@@ -1,0 +1,15 @@
+# Gitignore to get rid of tracking executable files
+
+# First, exclude all
+*
+
+# Include the files we want
+!*.c
+!*.cpp
+!*.h
+!*.sh
+!*.txt
+!README*
+
+# Include toplevel directories
+!/*
